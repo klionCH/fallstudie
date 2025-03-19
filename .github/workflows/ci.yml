@@ -46,9 +46,8 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-# npm test funktioniert nicht.
-#      - name: Run Tests (Jest)
-#        run: npm test
+      - name: Run Tests (Jest)
+        run: npm test
 
   deploy:
     name: Simulate Deployment
